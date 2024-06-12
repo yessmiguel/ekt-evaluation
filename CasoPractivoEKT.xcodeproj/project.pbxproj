@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4F6F6162C1A3BF8001A7EA9 /* CasoPractivoEKTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F6F6152C1A3BF8001A7EA9 /* CasoPractivoEKTApp.swift */; };
+		A4F6F6182C1A3BF8001A7EA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F6F6172C1A3BF8001A7EA9 /* ContentView.swift */; };
+		A4F6F61A2C1A3BFA001A7EA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F6F6192C1A3BFA001A7EA9 /* Assets.xcassets */; };
+		A4F6F61E2C1A3BFA001A7EA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F6F61D2C1A3BFA001A7EA9 /* Preview Assets.xcassets */; };
+		A4F6F6282C1A3BFB001A7EA9 /* CasoPractivoEKTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F6F6272C1A3BFB001A7EA9 /* CasoPractivoEKTTests.swift */; };
+		A4F6F6322C1A3BFB001A7EA9 /* CasoPractivoEKTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F6F6312C1A3BFB001A7EA9 /* CasoPractivoEKTUITests.swift */; };
+		A4F6F6342C1A3BFB001A7EA9 /* CasoPractivoEKTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F6F6332C1A3BFB001A7EA9 /* CasoPractivoEKTUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4F6F6242C1A3BFB001A7EA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4F6F60A2C1A3BF8001A7EA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4F6F6112C1A3BF8001A7EA9;
+			remoteInfo = CasoPractivoEKT;
+		};
+		A4F6F62E2C1A3BFB001A7EA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4F6F60A2C1A3BF8001A7EA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4F6F6112C1A3BF8001A7EA9;
+			remoteInfo = CasoPractivoEKT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4F6F6122C1A3BF8001A7EA9 /* CasoPractivoEKT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CasoPractivoEKT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F6F6152C1A3BF8001A7EA9 /* CasoPractivoEKTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasoPractivoEKTApp.swift; sourceTree = "<group>"; };
+		A4F6F6172C1A3BF8001A7EA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A4F6F6192C1A3BFA001A7EA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4F6F61B2C1A3BFA001A7EA9 /* CasoPractivoEKT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CasoPractivoEKT.entitlements; sourceTree = "<group>"; };
+		A4F6F61D2C1A3BFA001A7EA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4F6F6232C1A3BFB001A7EA9 /* CasoPractivoEKTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CasoPractivoEKTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F6F6272C1A3BFB001A7EA9 /* CasoPractivoEKTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasoPractivoEKTTests.swift; sourceTree = "<group>"; };
+		A4F6F62D2C1A3BFB001A7EA9 /* CasoPractivoEKTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CasoPractivoEKTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F6F6312C1A3BFB001A7EA9 /* CasoPractivoEKTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasoPractivoEKTUITests.swift; sourceTree = "<group>"; };
+		A4F6F6332C1A3BFB001A7EA9 /* CasoPractivoEKTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasoPractivoEKTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4F6F60F2C1A3BF8001A7EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F6F6202C1A3BFB001A7EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F6F62A2C1A3BFB001A7EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4F6F6092C1A3BF8001A7EA9 = {
+			isa = PBXGroup;
+			children = (
+				A4F6F6142C1A3BF8001A7EA9 /* CasoPractivoEKT */,
+				A4F6F6262C1A3BFB001A7EA9 /* CasoPractivoEKTTests */,
+				A4F6F6302C1A3BFB001A7EA9 /* CasoPractivoEKTUITests */,
+				A4F6F6132C1A3BF8001A7EA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4F6F6132C1A3BF8001A7EA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4F6F6122C1A3BF8001A7EA9 /* CasoPractivoEKT.app */,
+				A4F6F6232C1A3BFB001A7EA9 /* CasoPractivoEKTTests.xctest */,
+				A4F6F62D2C1A3BFB001A7EA9 /* CasoPractivoEKTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4F6F6142C1A3BF8001A7EA9 /* CasoPractivoEKT */ = {
+			isa = PBXGroup;
+			children = (
+				A4F6F6152C1A3BF8001A7EA9 /* CasoPractivoEKTApp.swift */,
+				A4F6F6172C1A3BF8001A7EA9 /* ContentView.swift */,
+				A4F6F6192C1A3BFA001A7EA9 /* Assets.xcassets */,
+				A4F6F61B2C1A3BFA001A7EA9 /* CasoPractivoEKT.entitlements */,
+				A4F6F61C2C1A3BFA001A7EA9 /* Preview Content */,
+			);
+			path = CasoPractivoEKT;
+			sourceTree = "<group>";
+		};
+		A4F6F61C2C1A3BFA001A7EA9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A4F6F61D2C1A3BFA001A7EA9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4F6F6262C1A3BFB001A7EA9 /* CasoPractivoEKTTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4F6F6272C1A3BFB001A7EA9 /* CasoPractivoEKTTests.swift */,
+			);
+			path = CasoPractivoEKTTests;
+			sourceTree = "<group>";
+		};
+		A4F6F6302C1A3BFB001A7EA9 /* CasoPractivoEKTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4F6F6312C1A3BFB001A7EA9 /* CasoPractivoEKTUITests.swift */,
+				A4F6F6332C1A3BFB001A7EA9 /* CasoPractivoEKTUITestsLaunchTests.swift */,
+			);
+			path = CasoPractivoEKTUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4F6F6112C1A3BF8001A7EA9 /* CasoPractivoEKT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F6F6372C1A3BFB001A7EA9 /* Build configuration list for PBXNativeTarget "CasoPractivoEKT" */;
+			buildPhases = (
+				A4F6F60E2C1A3BF8001A7EA9 /* Sources */,
+				A4F6F60F2C1A3BF8001A7EA9 /* Frameworks */,
+				A4F6F6102C1A3BF8001A7EA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CasoPractivoEKT;
+			productName = CasoPractivoEKT;
+			productReference = A4F6F6122C1A3BF8001A7EA9 /* CasoPractivoEKT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4F6F6222C1A3BFB001A7EA9 /* CasoPractivoEKTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F6F63A2C1A3BFB001A7EA9 /* Build configuration list for PBXNativeTarget "CasoPractivoEKTTests" */;
+			buildPhases = (
+				A4F6F61F2C1A3BFB001A7EA9 /* Sources */,
+				A4F6F6202C1A3BFB001A7EA9 /* Frameworks */,
+				A4F6F6212C1A3BFB001A7EA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4F6F6252C1A3BFB001A7EA9 /* PBXTargetDependency */,
+			);
+			name = CasoPractivoEKTTests;
+			productName = CasoPractivoEKTTests;
+			productReference = A4F6F6232C1A3BFB001A7EA9 /* CasoPractivoEKTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4F6F62C2C1A3BFB001A7EA9 /* CasoPractivoEKTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F6F63D2C1A3BFB001A7EA9 /* Build configuration list for PBXNativeTarget "CasoPractivoEKTUITests" */;
+			buildPhases = (
+				A4F6F6292C1A3BFB001A7EA9 /* Sources */,
+				A4F6F62A2C1A3BFB001A7EA9 /* Frameworks */,
+				A4F6F62B2C1A3BFB001A7EA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4F6F62F2C1A3BFB001A7EA9 /* PBXTargetDependency */,
+			);
+			name = CasoPractivoEKTUITests;
+			productName = CasoPractivoEKTUITests;
+			productReference = A4F6F62D2C1A3BFB001A7EA9 /* CasoPractivoEKTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4F6F60A2C1A3BF8001A7EA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A4F6F6112C1A3BF8001A7EA9 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					A4F6F6222C1A3BFB001A7EA9 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A4F6F6112C1A3BF8001A7EA9;
+					};
+					A4F6F62C2C1A3BFB001A7EA9 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A4F6F6112C1A3BF8001A7EA9;
+					};
+				};
+			};
+			buildConfigurationList = A4F6F60D2C1A3BF8001A7EA9 /* Build configuration list for PBXProject "CasoPractivoEKT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4F6F6092C1A3BF8001A7EA9;
+			productRefGroup = A4F6F6132C1A3BF8001A7EA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4F6F6112C1A3BF8001A7EA9 /* CasoPractivoEKT */,
+				A4F6F6222C1A3BFB001A7EA9 /* CasoPractivoEKTTests */,
+				A4F6F62C2C1A3BFB001A7EA9 /* CasoPractivoEKTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4F6F6102C1A3BF8001A7EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F6F61E2C1A3BFA001A7EA9 /* Preview Assets.xcassets in Resources */,
+				A4F6F61A2C1A3BFA001A7EA9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F6F6212C1A3BFB001A7EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F6F62B2C1A3BFB001A7EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4F6F60E2C1A3BF8001A7EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F6F6182C1A3BF8001A7EA9 /* ContentView.swift in Sources */,
+				A4F6F6162C1A3BF8001A7EA9 /* CasoPractivoEKTApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F6F61F2C1A3BFB001A7EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F6F6282C1A3BFB001A7EA9 /* CasoPractivoEKTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F6F6292C1A3BFB001A7EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F6F6322C1A3BFB001A7EA9 /* CasoPractivoEKTUITests.swift in Sources */,
+				A4F6F6342C1A3BFB001A7EA9 /* CasoPractivoEKTUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4F6F6252C1A3BFB001A7EA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4F6F6112C1A3BF8001A7EA9 /* CasoPractivoEKT */;
+			targetProxy = A4F6F6242C1A3BFB001A7EA9 /* PBXContainerItemProxy */;
+		};
+		A4F6F62F2C1A3BFB001A7EA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4F6F6112C1A3BF8001A7EA9 /* CasoPractivoEKT */;
+			targetProxy = A4F6F62E2C1A3BFB001A7EA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4F6F6352C1A3BFB001A7EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4F6F6362C1A3BFB001A7EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A4F6F6382C1A3BFB001A7EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CasoPractivoEKT/CasoPractivoEKT.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CasoPractivoEKT/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bnrd.ekt.casopractivo.CasoPractivoEKT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4F6F6392C1A3BFB001A7EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CasoPractivoEKT/CasoPractivoEKT.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CasoPractivoEKT/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bnrd.ekt.casopractivo.CasoPractivoEKT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4F6F63B2C1A3BFB001A7EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bnrd.ekt.casopractivo.CasoPractivoEKTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CasoPractivoEKT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CasoPractivoEKT";
+			};
+			name = Debug;
+		};
+		A4F6F63C2C1A3BFB001A7EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bnrd.ekt.casopractivo.CasoPractivoEKTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CasoPractivoEKT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CasoPractivoEKT";
+			};
+			name = Release;
+		};
+		A4F6F63E2C1A3BFB001A7EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bnrd.ekt.casopractivo.CasoPractivoEKTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CasoPractivoEKT;
+			};
+			name = Debug;
+		};
+		A4F6F63F2C1A3BFB001A7EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bnrd.ekt.casopractivo.CasoPractivoEKTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CasoPractivoEKT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4F6F60D2C1A3BF8001A7EA9 /* Build configuration list for PBXProject "CasoPractivoEKT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F6F6352C1A3BFB001A7EA9 /* Debug */,
+				A4F6F6362C1A3BFB001A7EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4F6F6372C1A3BFB001A7EA9 /* Build configuration list for PBXNativeTarget "CasoPractivoEKT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F6F6382C1A3BFB001A7EA9 /* Debug */,
+				A4F6F6392C1A3BFB001A7EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4F6F63A2C1A3BFB001A7EA9 /* Build configuration list for PBXNativeTarget "CasoPractivoEKTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F6F63B2C1A3BFB001A7EA9 /* Debug */,
+				A4F6F63C2C1A3BFB001A7EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4F6F63D2C1A3BFB001A7EA9 /* Build configuration list for PBXNativeTarget "CasoPractivoEKTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F6F63E2C1A3BFB001A7EA9 /* Debug */,
+				A4F6F63F2C1A3BFB001A7EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4F6F60A2C1A3BF8001A7EA9 /* Project object */;
+}
