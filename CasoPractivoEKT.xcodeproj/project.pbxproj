@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4DAD5E92C1B5E2A0062308C /* ProductsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F6F66F2C1AE143001A7EA9 /* ProductsListView.swift */; };
 		A4F6F6162C1A3BF8001A7EA9 /* CasoPractivoEKTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F6F6152C1A3BF8001A7EA9 /* CasoPractivoEKTApp.swift */; };
-		A4F6F6182C1A3BF8001A7EA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F6F6172C1A3BF8001A7EA9 /* ContentView.swift */; };
+		A4F6F6182C1A3BF8001A7EA9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F6F6172C1A3BF8001A7EA9 /* MainView.swift */; };
 		A4F6F61A2C1A3BFA001A7EA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F6F6192C1A3BFA001A7EA9 /* Assets.xcassets */; };
 		A4F6F61E2C1A3BFA001A7EA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F6F61D2C1A3BFA001A7EA9 /* Preview Assets.xcassets */; };
 		A4F6F6282C1A3BFB001A7EA9 /* CasoPractivoEKTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F6F6272C1A3BFB001A7EA9 /* CasoPractivoEKTTests.swift */; };
 		A4F6F6322C1A3BFB001A7EA9 /* CasoPractivoEKTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F6F6312C1A3BFB001A7EA9 /* CasoPractivoEKTUITests.swift */; };
 		A4F6F6342C1A3BFB001A7EA9 /* CasoPractivoEKTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F6F6332C1A3BFB001A7EA9 /* CasoPractivoEKTUITestsLaunchTests.swift */; };
+		A4F6F66A2C1AD2FF001A7EA9 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F6F6692C1AD2FF001A7EA9 /* Product.swift */; };
+		A4F6F66D2C1ADC29001A7EA9 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F6F66C2C1ADC29001A7EA9 /* APIService.swift */; };
+		A4F6F6742C1B56C4001A7EA9 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F6F6732C1B56C4001A7EA9 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		A4F6F6122C1A3BF8001A7EA9 /* CasoPractivoEKT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CasoPractivoEKT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F6F6152C1A3BF8001A7EA9 /* CasoPractivoEKTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasoPractivoEKTApp.swift; sourceTree = "<group>"; };
-		A4F6F6172C1A3BF8001A7EA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A4F6F6172C1A3BF8001A7EA9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		A4F6F6192C1A3BFA001A7EA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4F6F61B2C1A3BFA001A7EA9 /* CasoPractivoEKT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CasoPractivoEKT.entitlements; sourceTree = "<group>"; };
 		A4F6F61D2C1A3BFA001A7EA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +49,10 @@
 		A4F6F62D2C1A3BFB001A7EA9 /* CasoPractivoEKTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CasoPractivoEKTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F6F6312C1A3BFB001A7EA9 /* CasoPractivoEKTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasoPractivoEKTUITests.swift; sourceTree = "<group>"; };
 		A4F6F6332C1A3BFB001A7EA9 /* CasoPractivoEKTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasoPractivoEKTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A4F6F6692C1AD2FF001A7EA9 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Product.swift; path = "../../../../iOS Examples/SwiftUIPractices/SwiftUIPractices/Components/Product.swift"; sourceTree = "<group>"; };
+		A4F6F66C2C1ADC29001A7EA9 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIService.swift; path = "../../../../iOS Examples/SwiftUIPractices/SwiftUIPractices/Components/APIService.swift"; sourceTree = "<group>"; };
+		A4F6F66F2C1AE143001A7EA9 /* ProductsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListView.swift; sourceTree = "<group>"; };
+		A4F6F6732C1B56C4001A7EA9 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +103,9 @@
 		A4F6F6142C1A3BF8001A7EA9 /* CasoPractivoEKT */ = {
 			isa = PBXGroup;
 			children = (
+				A4F6F66E2C1AE13B001A7EA9 /* Views */,
+				A4F6F6682C1AD2F4001A7EA9 /* Models */,
 				A4F6F6152C1A3BF8001A7EA9 /* CasoPractivoEKTApp.swift */,
-				A4F6F6172C1A3BF8001A7EA9 /* ContentView.swift */,
 				A4F6F6192C1A3BFA001A7EA9 /* Assets.xcassets */,
 				A4F6F61B2C1A3BFA001A7EA9 /* CasoPractivoEKT.entitlements */,
 				A4F6F61C2C1A3BFA001A7EA9 /* Preview Content */,
@@ -127,6 +136,25 @@
 				A4F6F6332C1A3BFB001A7EA9 /* CasoPractivoEKTUITestsLaunchTests.swift */,
 			);
 			path = CasoPractivoEKTUITests;
+			sourceTree = "<group>";
+		};
+		A4F6F6682C1AD2F4001A7EA9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A4F6F6692C1AD2FF001A7EA9 /* Product.swift */,
+				A4F6F66C2C1ADC29001A7EA9 /* APIService.swift */,
+				A4F6F6732C1B56C4001A7EA9 /* Common.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A4F6F66E2C1AE13B001A7EA9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4F6F6172C1A3BF8001A7EA9 /* MainView.swift */,
+				A4F6F66F2C1AE143001A7EA9 /* ProductsListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4F6F6182C1A3BF8001A7EA9 /* ContentView.swift in Sources */,
+				A4F6F6182C1A3BF8001A7EA9 /* MainView.swift in Sources */,
+				A4F6F66D2C1ADC29001A7EA9 /* APIService.swift in Sources */,
+				A4DAD5E92C1B5E2A0062308C /* ProductsListView.swift in Sources */,
+				A4F6F66A2C1AD2FF001A7EA9 /* Product.swift in Sources */,
 				A4F6F6162C1A3BF8001A7EA9 /* CasoPractivoEKTApp.swift in Sources */,
+				A4F6F6742C1B56C4001A7EA9 /* Common.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +454,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CasoPractivoEKT/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CasoPractivoEKT/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -458,6 +491,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CasoPractivoEKT/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CasoPractivoEKT/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
