@@ -16,7 +16,6 @@ struct ProductsListView: View {
     @State var loading: Bool = false
     @State var errorMessage: String = ""
 
-    
     var body: some View {
         NavigationView{
             VStack{
